@@ -1,8 +1,27 @@
 import HelloComponent from "./1.Basics/1.HelloComponent/HelloComponent";
 import HelloClassComponent from "./1.Basics/1.HelloComponent/HelloClassComponent";
 import CounterComponent from "./1.Basics/2.CounterComponent/CounterComponent";
+import ListComponent from "./1.Basics/3.ListComponent/ListComponent";
+import ConditionalRendering from "./1.Basics/4.ConditionalRendering/ConditionalRendering";
+import MultipleState from "./1.Basics/5.MultipleState/MultipleState";
 
 function App() {
+	const listStudents = [
+		{
+			id: 1,
+			name: "amith",
+			classs: 9,
+			color: "red",
+		},
+		{
+			name: "utkarsh",
+			classs: 10,
+		},
+		{
+			name: "santhu",
+			classs: 11,
+		},
+	];
 	return (
 		// <div className="App">
 		//   <header className="App-header">
@@ -24,7 +43,10 @@ function App() {
 			{/* <HelloComponent name={"amith"} />
 			<HelloClassComponent />
 			<HelloClassComponent /> */}
-			<CounterComponent heading={"counter for add and sub"} />
+			{/* <CounterComponent heading={"counter for add and sub"} /> */}
+			{/* <ListComponent students={listStudents} /> */}
+			{/* <ConditionalRendering /> */}
+			<MultipleState />
 		</>
 	);
 }
