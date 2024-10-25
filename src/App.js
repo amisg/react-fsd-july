@@ -16,6 +16,7 @@
 // import DigitalClock from "./8.DigitalClock/DigitalClock";
 // import HelloClassComponent1 from "./9.Classs Component/HelloClassComponent1";
 // import KeysAndLists from "./3.KeysAndLists/KeysAndList";
+import Portals from "./15.Portals/Portals";
 import OwnForms from "./4.Forms/1.OwnForms/OwnForms";
 import CounterClassComponent from "./9.Classs Component/1.Counter Component/CounterClassComponent";
 import PokemonApiClassComponent from "./9.Classs Component/2.PokemonApiClassComponent/PokemonApiClassComponent";
@@ -71,7 +72,25 @@ function App() {
 			{/* <LifeCycleOfFunctionalComponent /> */}
 			{/* <HookuseEffect /> */}
 			{/* <CounterClassComponent /> */}
-			<PokemonApiClassComponent />
+			{/* <PokemonApiClassComponent /> */}
+			<div>
+				bweufhsaduhfashdfijaeidjfiadfuhuhsduhfushdfiuheiwdhfedfijidjfisid
+				uwehfuihewihfiwehfihwiehfihewifhiewhfihewihfihwef
+				;kwehdfuewuhfuewfuhueuhfh
+				bweufhsaduhfashdfijaeidjfiadfuhuhsduhfushdfiuheiwdhfedfijidjfisid
+				uwehfuihewihfiwehfihwiehfihewifhiewhfihewihfihwef
+				;kwehdfuewuhfuewfuhueuhfh
+				bweufhsaduhfashdfijaeidjfiadfuhuhsduhfushdfiuheiwdhfedfijidjfisid
+				uwehfuihewihfiwehfihwiehfihewifhiewhfihewihfihwef
+				;kwehdfuewuhfuewfuhueuhfh
+				bweufhsaduhfashdfijaeidjfiadfuhuhsduhfushdfiuheiwdhfedfijidjfisid
+				uwehfuihewihfiwehfihwiehfihewifhiewhfihewihfihwef
+				;kwehdfuewuhfuewfuhueuhfh
+				bweufhsaduhfashdfijaeidjfiadfuhuhsduhfushdfiuheiwdhfedfijidjfisid
+				uwehfuihewihfiwehfihwiehfihewifhiewhfihewihfihwef
+				;kwehdfuewuhfuewfuhueuhfh
+			</div>
+			<Portals title={"hey i am title"} />
 		</>
 	);
 }
