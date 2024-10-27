@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import Input from "./CommomFormUI/Input";
+import Input from "./CommonFormUI/Input";
 
 function InputFormComponent(params) {
 	const ref = useRef();
